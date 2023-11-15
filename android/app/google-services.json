@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873851206673",
+    "project_id": "arctic-hybrid-373106",
+    "storage_bucket": "arctic-hybrid-373106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873851206673:android:ae8796f15fb9242e61c5b0",
+        "android_client_info": {
+          "package_name": "com.pushnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDMQ_mLxBkD_GsvSA34CoU-IqDuRrL_TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
