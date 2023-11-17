@@ -9,12 +9,13 @@ import {
   View,
   Alert,
   PermissionsAndroid,
+  TouchableOpacity,
 } from "react-native";
 import messaging from "@react-native-firebase/messaging";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import PushNotification from "react-native-push-notification";
 
-const Test = () => {
+const Test = (props) => {
   const isDarkMode = useColorScheme() === "dark";
 
   const backgroundStyle = {
@@ -96,7 +97,13 @@ const Test = () => {
             justifyContent: "center",
           }}
         >
-          <Text>Push notification test</Text>
+          <TouchableOpacity
+            onPress={() => {
+              props.navigation.navigate("Check");
+            }}
+          >
+            <Text>Push notification test</Text>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </SafeAreaView>
